@@ -1,0 +1,85 @@
+body {
+    background-image: url("./img/haikei.png");
+}
+
+
+#title {
+    font-style: italic;
+    font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+    background: white;
+    color: blue;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#blink {
+    -webkit-animation: blink 1s ease infinite;
+    animation: blink 1s ease infinite;
+}
+@-webkit-keyframes blink {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes blink {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#visitor {
+    color: white;
+}
+
+#kasiga {
+    padding: 30px;
+    width: 400px;
+}
+
+#start {
+    font-size: 100px;
+    font-weight: bold;
+    margin     : auto;
+                                /* 虹色グラデーション編集CSS  */
+    background : linear-gradient(136deg, 
+                                red,
+                                orange,
+                                yellow,
+                                green,
+                                aqua,
+                                blue,
+                                purple);
+}
+
+#linkfree {
+    background: darkblue;
+    color: white;
+}
+
+#setumei {
+    background: yellow;
+    margin: 50px;
+    text-align: center;
+}
+
+#what {
+    font-style: italic;
+    color: red;
+    font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+    font-size: 60px;
+    text-shadow: -10px, -20px, 10px, #000000;
+}
+
+#detail {
+    font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+    font-size: 30px;
+    text-shadow: -10px, -20px, 10px, #000000;
+}
+
+#tik {
+    color: blue;
+    font-size: 40px;
+}
+
+#eru {
+    color: green;
+    font-size: 40px;
+}
